@@ -10,6 +10,7 @@ const sha = require('object-sha');
 const axios = require('axios');
 const shamirs = require('shamirs-secret-sharing');
 const crypto = require('crypto');
+
 // HOMOMORFISMO
 const paillier = require("paillier-bigint");
 

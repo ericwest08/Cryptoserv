@@ -7,7 +7,7 @@ export class PrivateKey{
 //import * as bc from 'bigint-conversion';
     bc = require('bigint-conversion');
     
-    constructor (d: BigInt, publicKey: publickey) {
+    constructor (d: bigint, publicKey: publickey) {
         this.d = BigInt(d);
         this.publicKey = publicKey;
     }
