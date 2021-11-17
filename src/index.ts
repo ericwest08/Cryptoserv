@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 import Router from './routes/routes';
 import rsaController from './controllers/rsa.controller';
 
-//INITIALIZATIONS
+//INITIALIZATIONSSS
 const app = express();  //To create an Express application
 
 //CONFIGS
