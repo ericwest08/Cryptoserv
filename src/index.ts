@@ -7,7 +7,7 @@ import Router from './routes/routes';
 import rsaController from './controllers/rsa.controller';
 
 //INITIALIZATIONSSS
-const app = express();  //To create an Express application
+const app = express();  //To create an Express applications
 
 //CONFIGS
 app.set('port', process.env.PORT || 3000);
