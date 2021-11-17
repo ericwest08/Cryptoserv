@@ -2,7 +2,7 @@ export class PublicKey {
     e: any;
     n: any;
     bcu = require('bigint-crypto-utils');
-    //import * as bc from 'bigint-conversion';
+    //import * as bc from 'bigint-conversionaa';
     bc = require('bigint-conversion');
     constructor(e: any, n: any) {
       this.e = e;
